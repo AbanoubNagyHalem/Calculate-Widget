@@ -1,0 +1,39 @@
+.main-C {
+  text-align: center;
+}
+
+.Sec-C {
+  display: flex;
+  justify-content: center;
+}
+
+#z11 {
+  display: none;
+}
+
+#z22 {
+  display: none;
+}
+
+#z33 {
+  display: none;
+}
+
+.main-C h1 {
+  color: blue;
+}
+
+.main-C label {
+  font-weight: bold;
+}
+
+.Sec-C .right {
+  margin-left: 20px;
+}
+
+.main-C button {
+  width: 90px;
+  height: 30px;
+  color: black;
+  background-color: #9e9e9e33;
+}

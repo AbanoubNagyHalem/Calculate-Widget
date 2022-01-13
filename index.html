@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <script src="index.js"></script>
+
+    <div class="main-C">
+      <h1>Calculate Your Rewards</h1>
+      <br />
+      <div class="Sec-C">
+        <div class="left">
+          <label for="a1">Vendor/Bills</label> <br />
+          <br />
+          <label for="a2">Media/Ad</label><br />
+          <br />
+          <label for="a3">Corporation spend</label>
+          <br />
+          <br />
+          <label for="a4">Team project</label>
+          <br /><br />
+        </div>
+        <div class="right">
+          <input
+            type="text"
+            name="a1"
+            id="a1"
+            value=""
+            placeholder="Enter a number"
+            oninput="global()"
+          />
+          <br />
+          <br />
+          <input
+            type="text"
+            name="a2"
+            id="a2"
+            value=""
+            placeholder="Enter a number"
+            oninput="global()"
+          />
+          <br />
+          <br />
+          <input
+            type="text"
+            name="a3"
+            id="a3"
+            value=""
+            placeholder="Enter a number"
+            oninput="global()"
+          />
+          <br />
+          <br />
+          <input
+            type="text"
+            name="a4"
+            id="a4"
+            value=""
+            placeholder="Enter a number"
+            oninput="global()"
+          />
+          <br />
+          <br />
+        </div>
+      </div>
+    </div>
+
+    <div class="main-C">
+      <h1>Compare Your Rewards</h1>
+      <div>
+        <button id="B" onclick="a1() ">Brex</button>
+        <button id="S" onclick="a2()">Stripe</button>
+        <button id="A" onclick="a3()">Amex</button>
+      </div>
+      <br />
+      <div id="z11">Brex Business card : <span id="z1"></span></div>
+      <div id="z22">Stripe Business card : <span id="z2"></span></div>
+      <div id="z33">Amex Business card : <span id="z3"></span></div>
+    </div>
+
+    <br /><br />
+    <div class="main-C" hidden id="mc">
+      <div style="margin-bottom: 17px; height: 30px">
+        <label for="m1">unlimited rewards :</label>
+
+        <progress id="m1" max="500">50%</progress>
+        <span id="y1" style="position: fixed; right: 494px"></span>
+      </div>
+      <div>
+        <label for="m2">lifetime rewards : </label>
+        <progress id="m2" max="500">50%</progress
+        ><span id="y2" style="position: fixed; right: 494px"></span>
+      </div>
+    </div>
+
+    <div></div>
+  </body>
+</html>
